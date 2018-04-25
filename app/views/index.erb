@@ -1,0 +1,9 @@
+<h1>Index</h1>
+
+<% @recipes.each do |r| %>
+  <h2><%= r.name %></h2><br/>
+  <p><%= r.ingredients %></p><br/>
+  <p><%= r.cook_time %></p><br/>
+<% end %>
+<br/>
+
